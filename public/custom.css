@@ -1,0 +1,151 @@
+/* Để thêm gạch ngang ở giá gốc và làm nổi bật giá bán */
+.price-label {
+    font-weight: bold; /* Tạo độ đậm cho chữ "Giá gốc" và "Giá khuyến mại" */
+}
+
+.original-price-label {
+    text-decoration: line-through; /* Tạo gạch ngang ở giá gốc */
+    color: #999; /* Màu xám ví dụ */
+
+}
+
+/* Để làm nổi bật giá bán */
+.promotional-price {
+    color: #e74c3c; /* Màu đỏ ví dụ */
+    font-weight: bold; /* Tạo độ đậm cho giá bán */
+    font-size: 1.5rem;
+}
+
+.product-name-1 {
+    font-weight: bold; /* Tạo độ đậm cho chữ */ /* Điều chỉnh khoảng cách giữa các dòng */
+    font-size: 1.5rem;
+}
+
+
+.chonthanhtoan {
+    align-items: center; /* Canh giữa các thành phần theo chiều dọc */
+}
+
+#num-order-wp-1 {
+    display: inline-block; /* Hiển thị "Số lượng" trên cùng một hàng */
+}
+
+.btn-add-cart-1 {
+    margin-top: 20px;
+}
+
+.add-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-cart:hover {
+    background-color: #2980b9;
+}
+
+.cart-icon {
+    margin-right: 5px; /* Khoảng cách giữa biểu tượng giỏ hàng và văn bản */
+    font-size: 18px; /* Kích thước biểu tượng */
+}
+
+
+/* CSS cho container bao quanh input và biểu tượng "+" và "-" */
+.quantity-wrapper {
+    display: flex; /* Hiển thị các thành phần trên cùng một hàng */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+}
+
+/* CSS cho chữ "Số lượng" */
+.quantity-label {
+    margin-right: 30px;
+}
+
+.quantity-label-1 {
+    margin-left: 20px;
+}
+
+/* CSS cho container chứa input và biểu tượng */
+.quantity-control {
+    display: flex; /* Hiển thị các thành phần trên cùng một hàng */
+    width: auto; /* Tự điều chỉnh chiều rộng dựa trên kích thước nội dung */
+    border: 1px solid #ccc; /* Viền xung quanh container */
+    border-radius: 5px; /* Độ cong của viền */
+    overflow: hidden; /* Ngăn biểu tượng "+" và "-" tràn ra ngoài container */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+}
+
+/* CSS cho mỗi phần tử trong container */
+.quantity-item {
+    display: flex; /* Hiển thị biểu tượng và input cùng một hàng */
+    justify-content: center; /* Căn giữa nội dung của phần tử */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 5px; /* Khoảng cách bên trong phần tử */
+    flex: 1; /* Chia đều không gian cho tất cả các phần tử */
+}
+
+/* CSS cho input "Số lượng" */
+.quantity-input input {
+    outline: none; /* Loại bỏ viền khi input được focus */
+    font-size: 16px; /* Kích thước chữ */
+    width: auto; /* Tự điều chỉnh chiều rộng dựa trên kích thước nội dung */
+}
+
+/* CSS cho biểu tượng "+" và "-" sử dụng SVG */
+.quantity-item .quantity-minus svg,
+.quantity-item .quantity-plus svg {
+    width: auto; /* Tự điều chỉnh chiều rộng dựa trên kích thước nội dung */
+    height: 15px; /* Độ cao của biểu tượng "-" và "+" */
+    fill: black; /* Màu sắc của biểu tượng */
+    cursor: pointer; /* Cho phép sử dụng cursor như pointer */
+}
+
+/* CSS để giảm kích thước của 3 phần */
+.quantity-item .quantity-minus,
+.quantity-item .quantity-input,
+.quantity-item .quantity-plus {
+    flex: 0.5; /* Giảm kích thước của các phần tử chứa biểu tượng "-" và "+" */
+}
+
+.chonsoluong::-webkit-inner-spin-button,
+.chonsoluong::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+#main-menu-wp-1 {
+    background-color: #FFD400;
+}
+
+#main-menu-1 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+#main-menu-1 li {
+    margin: 0px 30px 10px 30px;
+}
+
+#main-menu-1 li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
